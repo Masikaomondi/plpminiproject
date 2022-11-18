@@ -1,14 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>PLP Mini Project</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="">
     </head>
     <body>
+        <a href = "Home">HOME</a>
+        <a href = "About">ABOUT</a>
+        <a href = "Contact Us">CONTACT US</a>
+
     <p align="center"><b><u>My Family</u></b></p>
     <h1>Father</h1>
 
@@ -24,33 +28,101 @@
 
     <p>Our house has a garden, drawing room, kitchen and four bedrooms.</p>
 
-    <form METHOD = POST ACTION = "location and file name">
+    <form method = POST action = "location and file name">
+        <label>
         <b>HTML FORM</b><br>
         <p></p>
             First Name :
-        <INPUT TYPE = TEXT placeholder="Name" Name = ""><br>
+        <input "type" = text placeholder="Name" name = "" > <br>
             Last Name :
-        <INPUT TYPE = TEXT placeholder = "Name" Name = ""><br>
+        <input "type" = text placeholder = "Name" name = "" > <br>
             Email :
-        <INPUT TYPE = TEXT Email = ""><br>
-        <INPUT TYPE = "Radio" Name = "Gender">Male<br>
-        <INPUT TYPE="Radio" Name="Gender">Female<br>
+        <input "type" = text email = ""><br>
+        <input type = "Radio" name = "Gender">Male<br>
+        <input type="Radio" name ="Gender">Female<br>
             <p></p>
-        <INPUT TYPE = SUBMIT VALUE = "send information"><br>
+        <input type = SUBMIT value = "send information"><br>
             <p></p>
-        <INPUT TYPE=RESET VALUE="clear form">
+        <input type = reset value="clear form">
+        </label>
     </form>
 
-    <h2>BASIC HTML TABLE</h2>
-    <table border = 2>
-        <tr>
-            <th>Level 1</th>
-            <th>Level 2</th>
-            <th>Level 3</th>
-            <th>Info</th>
-            <th>Name</th>
-        </tr>
-    </table>
+    <table border = "1" width= "300" cellpadding= "10">
+
+ <h2> Basic HTML Tables </h2>
+
+<tr>
+
+	<th> Level1 </th>
+
+	<th> Level 2</th>
+
+	<th> Level 3</th>
+
+	<th> Info </th>
+
+	<th> Name </th>
+
+</tr>
+
+	<td rowspan= "6" > System </td>
+
+	<td rowspan= "4"> System Apps </td>
+
+	<td rowspan= "3"> System Env </td>
+
+	<td> APP Test</th>
+
+	<td> foo </td>
+
+</tr>
+
+</tr>
+
+	<td> App Memory </td>
+
+	<td> foo </td>
+
+</tr>
+
+<tr>
+
+	<td> App Test </td>
+
+	<td> bar </td></tr>
+
+<tr>
+
+<td rowspan= "1"> System Env2 </td>
+
+	<td> App Test </td>
+
+	<td> bar </td>
+
+</tr>
+
+<tr>
+
+<td rowspan= "2" >System memory</th>
+
+<td rowspan= "2"> Memory Test </td>
+
+<td>Memory Func </td>
+
+<td> foo </td>
+
+</tr>
+
+<tr>
+
+	<td> App Test </td>
+
+	<td> bar </td>
+
+</tr>
+
+</table>
+
 
 
 
